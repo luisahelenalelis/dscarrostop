@@ -41,7 +41,8 @@
 
 .nav-card {
   background-color: #ededed;
-  padding: 30px 0;
+  flex: 1;
+  padding: 25px 0;
 }
 
 .nav-card a {
@@ -49,9 +50,15 @@
   color: #fff;
   font-size: 0.5em;
   font-weight: 700;
-  padding: 12px 35px;
   border-radius: 5px;
   text-transform: uppercase;
+  border: 2px solid transparent;
+}
+
+.nav-card a:hover {
+  background-color: #cbced3;
+  color: #00285f;
+  border: 2px solid #00285f;
 }
 
 .nav-card p {
@@ -83,10 +90,11 @@
     width: 500px;
   }
 
-  .nav-card {
+  .link-card {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
+    padding: 40px 0;
   }
 }
 
@@ -99,15 +107,6 @@
     padding: 20px 20px 100px 20px;
   }
 
-  .nav-card {
-    display: flex;
-    justify-content: flex-start;
-    gap: 20px;
-  }
-
-  .nav-card a {
-    margin-left: 100px;
-  }
 }
 
 @media (min-width: 992px) {
@@ -172,9 +171,5 @@
   .home-image-container img {
     width: 450px;
     padding-top: 0;
-  }
-
-  .nav-card {
-    margin-top: 15px;
   }
 }

@@ -4,6 +4,12 @@
   padding: 15px 20px 30px;
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card-top-container img {
   width: 215px;
   height: 165px;
@@ -18,9 +24,7 @@
 .card-container p {
   font-size: 14px;
   color: #585858;
-  max-width: 260px;
   padding-bottom: 30px;
-  margin: 0 auto;
   font-style: italic;
 }
 
@@ -32,7 +36,6 @@
   padding: 12px 75px;
   border-radius: 5px;
   text-transform: uppercase;
-  max-width: 260px;
 }
 
 
