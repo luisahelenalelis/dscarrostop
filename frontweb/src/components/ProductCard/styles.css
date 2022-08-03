@@ -1,0 +1,39 @@
+.product-card {
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 15px 20px 30px;
+}
+
+.card-top-container img {
+  width: 215px;
+  height: 165px;
+}
+
+.card-container h6 {
+  font-size: 18px;
+  color: #000000;
+  padding-bottom: 15px;
+}
+
+.card-container p {
+  font-size: 14px;
+  color: #585858;
+  max-width: 260px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.nav-card a {
+  background-color: #00285f;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 12px 75px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  max-width: 260px;
+}
+
+
+

@@ -22,12 +22,12 @@ const Home = () => {
           </div>
         </div>
         <div className="base-card nav-card">
-            <a href="/">Ver Catálago</a>
-            <p>Comece agora a navegar</p>
+          <a href="/">Ver Catálago</a>
+          <p>Comece agora a navegar</p>
         </div>
       </div>
     </>
   );
-};
+}
 
 export default Home;

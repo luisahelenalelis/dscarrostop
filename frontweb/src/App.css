@@ -15,3 +15,8 @@ a, a:hover {
     color: unset;
 }
 
+.base-card {
+    background-color: #ededed;
+    border-radius: 10px;
+}
+

@@ -26,5 +26,26 @@
     color: #00285F;
 }
 
+@media (min-width: 576px) {
+    .nav-log-text h4 {
+        font-size: 1.6em;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-nav {
+        padding-left: 30px;
+    }
+
+    .nav-log-text h4 {
+        font-size: 1.8em;
+    }
+}
+
+@media (min-width: 992px) {
+    .nav-log-text h4 {
+        font-size: 1.8em;
+    }
+}
 
 
